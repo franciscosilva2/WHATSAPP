@@ -13,9 +13,30 @@
     gtag('config', 'AW-17907360054');
   </script>
 
-  <meta http-equiv="refresh" content="2;url=https://wa.me/5521969887879">
+  <!-- Função para disparar conversão de Contato -->
+  <script>
+    function dispararLead() {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-17907360054/VgSSCLmf5u8bELbC8tpC',
+        'value': 1.0,
+        'currency': 'BRL'
+      });
+    }
+  </script>
+
+  <!-- Redirecionamento para WhatsApp -->
+  <script>
+    window.onload = function() {
+      dispararLead(); // dispara lead
+      // Redireciona após 100ms
+      setTimeout(function() {
+        window.location.href = "https://wa.me/5521969887879";
+      }, 100);
+    };
+  </script>
 </head>
 <body>
   <p>Redirecionando para o WhatsApp…</p>
 </body>
 </html>
+
