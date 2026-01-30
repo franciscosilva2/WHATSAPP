@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Fale com o Engenheiro | Platô Estrutural</title>
+
+  <!-- Google tag (Google Ads) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17907360054"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-17907360054');
+  </script>
+
+  <!-- Redirecionamento para WhatsApp -->
+  <script>
+    setTimeout(function () {
+      window.location.href = "https://wa.me/5521969887879";
+    }, 1200);
+  </script>
+</head>
+
+<body style="font-family: Arial; text-align: center; margin-top: 80px;">
+  <h2>Conectando você ao engenheiro…</h2>
+  <p>Você será redirecionado para o WhatsApp em instantes.</p>
+</body>
+</html>
